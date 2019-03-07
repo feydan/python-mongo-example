@@ -5,7 +5,7 @@ from pymongo import MongoClient
 @click.command()
 @click.argument('collection')
 def read(collection):
-    """Takes a csv file, converts each row into json, and inserts the rows into mongo """
+    """Reads from a collection and prints out data """
 
     client = MongoClient('mongodb://localhost:27017/')
     db = client.get_database('test')
