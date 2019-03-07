@@ -7,7 +7,7 @@ Simple project showing python and mongo working together locally
     1. You may want to use virtualenv to create a separate python environment
     2. `pip install -r requirements.txt`
 
-I've tested this script in python 3.7.  I'm not sure if it works in other versions.
+I've tested these scripts in python 3.7.  I'm not sure if it works in other versions.
 
 ## Installation
 `docker-compose up`
