@@ -31,3 +31,7 @@ This runs the `mongo` command on the `mongo` container.  From here you can conne
 1. `use test` connects to the test database
 2. `db.test_collection.find().pretty()` gets the first 10 documents in the test collection
 3. `db.test_collection.find({heading2:'row2c2'}).pretty()` gets documents where 'heading2' = 'row2c2'
+
+## Documentation and libraries
+1. pymongo - for interacting with the mongo database: https://api.mongodb.com/python/current/tutorial.html
+2. click - for creating command line python tools that accept arguments and options: https://click.palletsprojects.com/en/7.x/
