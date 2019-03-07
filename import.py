@@ -14,6 +14,7 @@ def import_csv(filename, collection):
     with open(filename) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
+            row['newfield'] = 'newvalue'
             db[collection].insert_one(row)
 
 if __name__ == '__main__':
